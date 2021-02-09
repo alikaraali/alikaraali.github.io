@@ -1219,11 +1219,6 @@ blockquote {
   }
 }
 
-.imageContainer > img:hover {
-    height: 3000px;
-    width: 4000px
-}
-
 
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -103,10 +103,16 @@
                     <img src="assets/img/blog01/IMG_20200226_134319.jpg" class="img-responsive" alt="reviews2" style="max-width:100%;height:auto;><div class="content-main single-post padDiv"> 	<br>
                     <img src="assets/img/blog01/IMG_20200226_143736.jpg" class="img-responsive" alt="reviews2" style="max-width:100%;height:auto;><div class="content-main single-post padDiv"> 	<br>
                     <img src="assets/img/blog01/IMG_20200226_145324.jpg" class="img-responsive" alt="reviews2" style="max-width:100%;height:auto;><div class="content-main single-post padDiv"> 	<br>
-                    <div class="imageContainer">
-					<img src ="assets/img/blog01/GOPR0442_orig.JPG"  />
-					</div>
-                    <img src="assets/img/blog01/GOPR0442_orig.JPG" class="img-responsive" alt="reviews2" style="max-width:100%;height:auto;><div class="content-main single-post padDiv"> 	<br>
+                    <img src="assets/img/blog01/GOPR0442_orig.JPG"  onclick="enlargeImg(this)" class="img-responsive" alt="reviews2" style="max-width:100%;height:auto;><div class="content-main single-post padDiv"> 
+                          <!-- script to set display property -->
+			        <script> 
+            // Function to increase image size 
+			            function enlargeImg(img) { 
+				                img.style.transform = "scale(1.5)"; 
+            				    img.style.transition = 
+			                  "transform 0.25s ease"; 
+            			} 
+        			</script> 	<br>
                     <img src="assets/img/blog01/IMG_20200226_150549.jpg" class="img-responsive" alt="reviews2" style="max-width:100%;height:auto;><div class="content-main single-post padDiv"> 	<br>
                     </div>
                   </div>
